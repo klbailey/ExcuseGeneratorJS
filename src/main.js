@@ -1,4 +1,4 @@
-
+//  <script src="main.js"></script> **Does not work with app.js -->
 window.onclick = function() {
     let who = ["The dog", "My grandma", "His turtle", "My bird"];
     let action = ["ate", "peed", "crushed", "broke"];

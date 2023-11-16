@@ -9,6 +9,7 @@ import "./assets/img/4geeks.ico";
 //   //write your code here
 //   console.log("Hello Rigo from the console!");
 // };
+
 window.onclick = function() {
   let who = ["The dog", "My grandma", "His turtle", "My bird"];
   let action = ["ate", "peed", "crushed", "broke"];
