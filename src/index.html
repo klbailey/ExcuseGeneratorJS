@@ -10,11 +10,17 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" href="".4geeks.ico" />
   </head>
   <body>
-    <p id="excuse">My dog ate my homework.</p>
-    <button type="button">Excuse</button>
+    <div class="container-fluid text-center">
+      <p id="excuse">My dog ate my homework.</p>
+      <!-- ID and onload function -->
+      <button type="button" onclick="onload()" id="button">
+        Generate New Excuse
+      </button>
+    </div>
+    <!-- <script src="main.js"></script> **Does not work with app.js -->
   </body>
-  <script src="main.js"></script>
 </html>
