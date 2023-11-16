@@ -1,10 +1,3 @@
-// window.onload = () => {
-// window.onload = function(){
-
-//     // document.querySelector('#button').addEventListener("click", () => {
-//     //     document.querySelector('#excuse').innerHTML = generateExcuse();
-//     // });
-// };
 
 window.onclick = function() {
     let who = ["The dog", "My grandma", "His turtle", "My bird"];

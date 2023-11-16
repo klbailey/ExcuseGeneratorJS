@@ -38,11 +38,4 @@ window.onclick = function() {
     " " +
     when[whenIndex] +
     ".";
-  // return who[whoIndex] + ' ' + action[actionIndex] + ' ' + what[whatIndex] + ' ' + when[whenIndex] + '.';
-
-  // // concatenate one item from each array in the proper order/put together strings
-  // document.querySelector("button").addEventListener("click", function() {
-  //     document.getElementById("excuse").innerHTML =
-  //     randomArray(who) + " " + randomArray(action) + " " + randomArray(what) + " " + randomArray(when) + ".";
-  // });
 };
