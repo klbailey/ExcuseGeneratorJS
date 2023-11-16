@@ -1,5 +1,4 @@
-//Reference to html id
-// const excuse = document.querySelector("#excuse");
+window.onload = function(){};
 //create onclick function
 window.onclick = function(){
     let who = ["The dog", "My grandma", "His turtle", "My bird"];
@@ -10,14 +9,13 @@ window.onclick = function(){
     // function that generates and returns a random excuse
     function randomArray(array) {
         //Math.floor rounds number down to nearest integer; Math.random: random number times length of array so it doesn't return greater than array
-        let newExcuse = array[Math.floor(Math.random() * array.length)];
+        return array[Math.floor(Math.random() * array.length)];
     }
     
     // concatenate one item from each array in the proper order/put together strings
- 
-    document.getElementById("excuse").innerHTML = 
-    randomArray(who) + " " + randomArray(action) + " " + randomArray(what) + " " + randomArray(when) + ".";
-
-    
+    document.querySelector("button").addEventListener("click", function() {
+        document.getElementById("excuse").innerHTML = 
+        randomArray(who) + " " + randomArray(action) + " " + randomArray(what) + " " + randomArray(when) + ".";
+    });
 };
 
